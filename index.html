@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cassette</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <div class="cassette">
+            <div class="internals">
+                <aside class="left spool">
+                    <div class="gear">
+                        <div class="teeth"></div>
+                    </div>
+                </aside>
+                <main class="window"></main>
+                <aside class="right spool">
+                    <div class="gear">
+                        <div class="teeth"></div>
+                    </div>
+                </aside>
+            </div>
+            <div class="case">
+                <div class="screw"></div>
+                <div class="screw"></div>
+                <div class="screw"></div>
+                <div class="screw"></div>
+                <div class="screw"></div>
+
+                <div class="sticker">
+                    <section class="sticker-top">
+                        <label class="site">A</label>
+                        <fieldset name="top-fields" class="top-fields">
+                            <input type="text" name="firstLine">
+                            <input type="text" name="secondLine">
+                            <span class="nr-switch">
+                                <label>N.R.</label>
+                                <input type="radio" id="nr-on" name="nr-switch" value="on">
+                                <label for="nr-on">ON</label>
+                                <input type="radio" id="nr-off" name="nr-switch" value="off">
+                                <label for="nr-off">OFF</label>
+                            </span>
+                        </fieldset>
+                    </section>
+                    <section class="sticker-bottom">
+                        <span class="audio-type">
+                            <label>
+                                <input type="radio" id="audio-stereo" name="audio-type" value="stereo">
+                                STEREO</label>
+                            <label>
+                                <input type="radio" id="audio-mono" name="audio-type" value="mono">
+                                MONO</label>
+                        </span>
+                        <label class="speed">60</label>
+                        <div class="play-info">
+                            <label>TYPE I (NORMAL) POSITION</label>
+                            <img src="assets/arrow.svg" alt="arrow">
+                            <label>NORMAL BIAS 120 µs EQ</label>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
